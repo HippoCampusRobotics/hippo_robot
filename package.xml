@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>hippo_robot</name>
+  <version>1.0.0</version>
+  <description>Meta package for all the HippoCampus framework related packages except the simulation</description>
+  <maintainer email="thies.lennart.alff@tuhh.de">Thies Lennart Alff</maintainer>
+  <license>GPLv2</license>
+
+  <!-- interface packages -->
+  <exec_depend>acoustic_msgs</exec_depend>
+  <exec_depend>alpha_msgs</exec_depend>
+  <exec_depend>buttons_msgs</exec_depend>
+  <exec_depend>dvl_msgs</exec_depend>
+  <exec_depend>gantry_msgs</exec_depend>
+  <exec_depend>hippo_control_msgs</exec_depend>
+  <exec_depend>hippo_msgs</exec_depend>
+  <exec_depend>px4_msgs</exec_depend>
+  <exec_depend>rapid_trajectories_msgs</exec_depend>
+  <exec_depend>state_estimation_msgs</exec_depend>
+  <exec_depend>uvms_msgs</exec_depend>
+
+  <!-- all other packages -->
+  <exec_depend>hippo_common</exec_depend>
+  <exec_depend>hippo_control</exec_depend>
+  <exec_depend>hardware</exec_depend>
+  <exec_depend>esc</exec_depend>
+  <exec_depend>path_planning</exec_depend>
+  <exec_depend>remote_control</exec_depend>
+  <exec_depend>dvl</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
