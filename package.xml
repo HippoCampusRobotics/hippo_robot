@@ -25,6 +25,7 @@
   <exec_depend>hippo_control</exec_depend>
   <exec_depend>hardware</exec_depend>
   <exec_depend>esc</exec_depend>
+  <exec_depend>gantry</exec_depend>
   <exec_depend>path_planning</exec_depend>
   <exec_depend>remote_control</exec_depend>
   <exec_depend>dvl</exec_depend>
