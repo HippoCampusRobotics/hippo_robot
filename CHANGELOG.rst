@@ -10,8 +10,8 @@ Changelog for package hippo_robot
 * added mjpeg_cam and visual_localization to dependencies
 * Contributors: Thies Lennart Alff
 
-Forthcoming
------------
+1.0.3 (2024-08-12)
+------------------
 * added qualisys_bridge because why not
   should not be to demanding in general and could be run on the vehicle by
   default

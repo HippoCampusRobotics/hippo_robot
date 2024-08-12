@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>hippo_robot</name>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <description>Meta package for all the HippoCampus framework related packages except the simulation</description>
   <maintainer email="thies.lennart.alff@tuhh.de">Thies Lennart Alff</maintainer>
   <license>GPLv2</license>
