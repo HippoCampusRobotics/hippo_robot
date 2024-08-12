@@ -29,6 +29,7 @@
   <exec_depend>hippo_control</exec_depend>
   <exec_depend>mjpeg_cam</exec_depend>
   <exec_depend>path_planning</exec_depend>
+  <exec_depend>qualisys_bridge</exec_depend>
   <exec_depend>remote_control</exec_depend>
   <exec_depend>visual_localization</exec_depend>
 
